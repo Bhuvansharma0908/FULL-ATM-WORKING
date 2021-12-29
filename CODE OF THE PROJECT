@@ -1,0 +1,232 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,g,e,h,l;
+	printf("SELECT THE BANK  ");
+	printf("\n1-- STATE BANK OF INDIA \n2-- PUNJAB NATIONAL BANK  \n3-- BANK OF BARODA \n");
+	scanf("%d",&l);
+	switch(l)
+	{
+		case 1: {
+				printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+	scanf("%d",&h);
+	if(h==1)
+	{
+	printf("INSERT YOUR CARD \nENTER YOUR PIN:  ");
+	scanf("%d",&e);
+	if(e==1234)
+	{
+		printf("WELCOME,  BHUVAN SHARMA \nPRESS THE FOLLOWING NUMBERS TO PERFROM DIFFREENT ACTIONS \n1 -- BALANCE ENQUIRY  \n2 -- CASH WITHDRAWL \n3 -- FOR LAST 1 MONTH TRANSACTIONS \n");
+		scanf("%d",&g);
+		switch(g)
+		{
+			case 1: printf("YOUR ACCOUNT BALANCE IS ---- 2000");
+			break;
+			case 2: 	printf("ENTER THE AMOUNT IN MULTIPLES OF 5 ");
+	printf("\nENTER AMOUNT: ");
+	c=2000;
+	scanf("%d",&a);
+	if(a%5==0 && 2000-a>0)
+	{
+		b=c-a;
+	    printf("YUR REMAINING AMOUNT IS: %d",b);
+	}
+	else if(2000-a<0)
+	printf("INSUFFICIENT FUNDS");
+	else if(a%5!=0)
+	printf("ENTER VALID AMOUNT");
+			break;
+			case 3: printf("5000 --- CREITED BY DINESH SHARMA \n1000 ---- paid to -- APOORAV KUMAR \n1500 ---- paid to --ANSHIKA  \n500 ---paid to --BHAVYA");
+		}
+	}
+	else
+	printf("WRONG PIN");
+			break;
+		}
+	printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+	scanf("%d",&h);
+	if(h==1)
+	{
+	printf("INSERT YOUR CARD \nENTER YOUR PIN:  ");
+	scanf("%d",&e);
+	if(e==1234)
+	{
+		printf("WELCOME,  BHUVAN SHARMA \nPRESS THE FOLLOWING NUMBERS TO PERFROM DIFFREENT ACTIONS \n1 -- BALANCE ENQUIRY  \n2 -- CASH WITHDRAWL \n3 -- FOR LAST 1 MONTH TRANSACTIONS \n");
+		scanf("%d",&g);
+		switch(g)
+		{
+			case 1: printf("YOUR ACCOUNT BALANCE IS ---- 2000");
+			break;
+			case 2: 	printf("ENTER THE AMOUNT IN MULTIPLES OF 5 ");
+	printf("\nENTER AMOUNT: ");
+	c=2000;
+	scanf("%d",&a);
+	if(a%5==0 && 2000-a>0)
+	{
+		b=c-a;
+	    printf("YUR REMAINING AMOUNT IS: %d",b);
+	}
+	else if(2000-a<0)
+	printf("INSUFFICIENT FUNDS");
+	else if(a%5!=0)
+	printf("ENTER VALID AMOUNT");
+			break;
+			case 3: printf("5000 --- CREITED BY DINESH SHARMA \n1000 ---- paid to -- APOORAV KUMAR \n1500 ---- paid to --ANSHIKA  \n500 ---paid to --BHAVYA");
+		}
+	}
+	else
+	printf("WRONG PIN");
+}
+	
+	
+}
+	case 2: {
+			printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+	scanf("%d",&h);
+	if(h==1)
+	{
+	printf("INSERT YOUR CARD \nENTER YOUR PIN:  ");
+	scanf("%d",&e);
+	if(e==1234)
+	{
+		printf("WELCOME,  BHUVAN SHARMA \nPRESS THE FOLLOWING NUMBERS TO PERFROM DIFFREENT ACTIONS \n1 -- BALANCE ENQUIRY  \n2 -- CASH WITHDRAWL \n3 -- FOR LAST 1 MONTH TRANSACTIONS \n");
+		scanf("%d",&g);
+		switch(g)
+		{
+			case 1: printf("YOUR ACCOUNT BALANCE IS ---- 2000");
+			break;
+			case 2: 	printf("ENTER THE AMOUNT IN MULTIPLES OF 5 ");
+	printf("\nENTER AMOUNT: ");
+	c=2000;
+	scanf("%d",&a);
+	if(a%5==0 && 2000-a>0)
+	{
+		b=c-a;
+	    printf("YUR REMAINING AMOUNT IS: %d",b);
+	}
+	else if(2000-a<0)
+	printf("INSUFFICIENT FUNDS");
+	else if(a%5!=0)
+	printf("ENTER VALID AMOUNT");
+			break;
+			case 3: printf("5000 --- CREITED BY DINESH SHARMA \n1000 ---- paid to -- APOORAV KUMAR \n1500 ---- paid to --ANSHIKA  \n500 ---paid to --BHAVYA");
+		}
+	}
+	else
+	printf("WRONG PIN");
+			break;
+		}
+	printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+	scanf("%d",&h);
+	if(h==1)
+	{
+	printf("INSERT YOUR CARD \nENTER YOUR PIN:  ");
+	scanf("%d",&e);
+	if(e==1234)
+	{
+		printf("WELCOME,  BHUVAN SHARMA \nPRESS THE FOLLOWING NUMBERS TO PERFROM DIFFREENT ACTIONS \n1 -- BALANCE ENQUIRY  \n2 -- CASH WITHDRAWL \n3 -- FOR LAST 1 MONTH TRANSACTIONS \n");
+		scanf("%d",&g);
+		switch(g)
+		{
+			case 1: printf("YOUR ACCOUNT BALANCE IS ---- 2000");
+			break;
+			case 2: 	printf("ENTER THE AMOUNT IN MULTIPLES OF 5 ");
+	printf("\nENTER AMOUNT: ");
+	c=2000;
+	scanf("%d",&a);
+	if(a%5==0 && 2000-a>0)
+	{
+		b=c-a;
+	    printf("YUR REMAINING AMOUNT IS: %d",b);
+	}
+	else if(2000-a<0)
+	printf("INSUFFICIENT FUNDS");
+	else if(a%5!=0)
+	printf("ENTER VALID AMOUNT");
+			break;
+			case 3: printf("5000 --- CREITED BY DINESH SHARMA \n1000 ---- paid to -- APOORAV KUMAR \n1500 ---- paid to --ANSHIKA  \n500 ---paid to --BHAVYA");
+		}
+	}
+	else
+	printf("WRONG PIN");
+		break;
+	}
+}
+case 3:{
+		printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+	scanf("%d",&h);
+	if(h==1)
+	{
+	printf("INSERT YOUR CARD \nENTER YOUR PIN:  ");
+	scanf("%d",&e);
+	if(e==1234)
+	{
+		printf("WELCOME,  BHUVAN SHARMA \nPRESS THE FOLLOWING NUMBERS TO PERFROM DIFFREENT ACTIONS \n1 -- BALANCE ENQUIRY  \n2 -- CASH WITHDRAWL \n3 -- FOR LAST 1 MONTH TRANSACTIONS \n");
+		scanf("%d",&g);
+		switch(g)
+		{
+			case 1: printf("YOUR ACCOUNT BALANCE IS ---- 2000");
+			break;
+			case 2: 	printf("ENTER THE AMOUNT IN MULTIPLES OF 5 ");
+	printf("\nENTER AMOUNT: ");
+	c=2000;
+	scanf("%d",&a);
+	if(a%5==0 && 2000-a>0)
+	{
+		b=c-a;
+	    printf("YUR REMAINING AMOUNT IS: %d",b);
+	}
+	else if(2000-a<0)
+	printf("INSUFFICIENT FUNDS");
+	else if(a%5!=0)
+	printf("ENTER VALID AMOUNT");
+			break;
+			case 3: printf("5000 --- CREITED BY DINESH SHARMA \n1000 ---- paid to -- APOORAV KUMAR \n1500 ---- paid to --ANSHIKA  \n500 ---paid to --BHAVYA");
+		}
+	}
+	else
+	printf("WRONG PIN");
+			break;
+		}
+	printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+	scanf("%d",&h);
+	if(h==1)
+	{
+	printf("INSERT YOUR CARD \nENTER YOUR PIN:  ");
+	scanf("%d",&e);
+	if(e==1234)
+	{
+		printf("WELCOME,  BHUVAN SHARMA \nPRESS THE FOLLOWING NUMBERS TO PERFROM DIFFREENT ACTIONS \n1 -- BALANCE ENQUIRY  \n2 -- CASH WITHDRAWL \n3 -- FOR LAST 1 MONTH TRANSACTIONS \n");
+		scanf("%d",&g);
+		switch(g)
+		{
+			case 1: printf("YOUR ACCOUNT BALANCE IS ---- 2000");
+			break;
+			case 2: 	printf("ENTER THE AMOUNT IN MULTIPLES OF 5 ");
+	printf("\nENTER AMOUNT: ");
+	c=2000;
+	scanf("%d",&a);
+	if(a%5==0 && 2000-a>0)
+	{
+		b=c-a;
+	    printf("YUR REMAINING AMOUNT IS: %d",b);
+	}
+	else if(2000-a<0)
+	printf("INSUFFICIENT FUNDS");
+	else if(a%5!=0)
+	printf("ENTER VALID AMOUNT");
+			break;
+			case 3: printf("5000 --- CREITED BY DINESH SHARMA \n1000 ---- paid to -- APOORAV KUMAR \n1500 ---- paid to --ANSHIKA  \n500 ---paid to --BHAVYA");
+		}
+	}
+	else
+	printf("WRONG PIN");
+}
+	break;
+}
+
+	default: printf("WRONG OPTION SLELCTED");
+}
+return 0;
+}
+	
