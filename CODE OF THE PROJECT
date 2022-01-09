@@ -2,13 +2,24 @@
 int main()
 {
 	int a,b,c,g,e,h,l;
+		 printf("\n\n\n\n\n");
+    printf("\n\t\t\t  **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**\n");
+    printf("\n\t\t\t        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+    printf("\n\t\t\t        =                 WELCOME                   =");
+    printf("\n\t\t\t        =                   TO                      =");
+    printf("\n\t\t\t        =                  BANK                     =");
+    printf("\n\t\t\t        =               MANAGEMENT                  =");
+    printf("\n\t\t\t        =                 SYSTEM                    =");
+    printf("\n\t\t\t        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+    printf("\n\t\t\t  **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**\n");
 	printf("SELECT THE BANK  ");
 	printf("\n1-- STATE BANK OF INDIA \n2-- PUNJAB NATIONAL BANK  \n3-- BANK OF BARODA \n");
 	scanf("%d",&l);
 	switch(l)
 	{
 		case 1: {
-				printf("SELECT LANGUAGE: \n1---ENGLISH \n");
+			printf("WELCOME TO STATE BANK OF INDIA");
+				printf("\nSELECT LANGUAGE: \n1---ENGLISH \n");
 	scanf("%d",&h);
 	if(h==1)
 	{
